@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    background-color: rgb(245,247,250);
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+header{
+    display: flex;
+    background-color: #32CD32A2;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    
+        a{
+            margin: 10px;
+        }
+        a:hover{
+            border-bottom: 4px solid white;
+        }
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80vh;
+    padding: 2rem;
+    
+    p{
+         font-size: 2.2rem;
+         font-weight:bold;
+         color: #32CD32;
+         font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        a{
+            color: rgba(53, 245, 5, 0.699);
+        }
+        align-self: center;
+        width: 80%;
+        text-align: center;
+        td{
+            border-bottom: 1px solid rgba(151, 148, 148, 0.664);
+        }
+        thead{
+            background-color:#32CD32;
+            color: white;
+            
+        }tbody{
+            color:rgb(12, 30, 36);
+            font-size: 18px;
+            background-color: white;
+        }
+        
+    }
+}
+
+
+.btn{
+        align-self: self-end;
+          
+            button{
+            width: 11rem;
+            height: 3rem;
+            border-radius: 10px;
+            border: 1px solid #32cd32;
+            background-color: #32cd32;
+            color: white;
+            margin-top: 20px;
+            font-size: 15px;
+            margin-bottom: 20px;
+            }
+            button:hover{
+                cursor: pointer;
+                width: 11.05rem;
+                height: 3.05rem;
+                transition: 0.2s;
+                font-size: 15.3px;
+            }
+        }
+
+  form{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 0.5rem;
+        margin-bottom: 10px;
+       
+        input{
+            width: 65%;
+            height: 2rem;
+            color: gray;
+            border:1px solid #32cd32a2;
+        }
+        input:focus{
+            outline: none;
+            box-shadow: 0px 0px 2px #32CD32;
+        }
+        button{
+            width: 10%;
+            border: none;
+        }
+         button:hover{
+            cursor: pointer;
+            border: 1px solid gray;
+            
+        }
+        input,button{
+            border-radius: 10px;
+        }
+    }
+
+   

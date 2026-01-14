@@ -1,0 +1,102 @@
+body{
+    height: 100vh;
+    background-color: rgb(245,247,250);
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+header{
+    display: flex;
+    background-color: #32cd32a2;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    
+        a{
+            margin: 10px;
+        }
+        a:hover{
+            border-bottom: 4px solid white;
+        }
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80vh;
+    padding: 2rem;
+    p{
+         font-size: 2.2rem;
+         font-weight:bold;
+         font-family: Arial, Helvetica, sans-serif;
+         color: #32cd32;
+    }
+   form{
+    border-bottom: 1px solid #32cd32A2;
+     border-right: 1px solid #32cd32A2;
+    height: 50vh;
+    color:rgb(12, 30, 36);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    input{
+        width: 11rem;
+        height: 1.5rem;
+        border-radius: 10px;
+        border:1px solid #32cd32a2;
+    }
+    input:focus{
+       outline: none;
+       box-shadow: 0px 0px 2px  #32cd32;
+    }
+    #btn{
+        height: 3rem;
+        align-self:center;
+        border: 1px solid white;
+        background-color: #32cd3286;
+        color: white;
+        font-size: 15px;
+    }
+     #btn:hover{
+            cursor: pointer;
+            width: 11.05rem;
+            height: 3.05rem;
+            transition: 0.2s;
+            font-size: 15.3px;
+            background-color: #32cd32;
+        }
+   }
+}
+
+.btn1{
+    order: -1;
+    align-self: center;
+    button{
+            width: 5rem;
+            height: 3rem;
+            border-radius: 10px;
+            border: 1px solid red;
+            background-color: rgba(255, 0, 0, 0.541);
+            color: white;
+            margin-top: 20px;
+            font-size: 15px;
+            margin-bottom: 20px;
+            }
+            button:hover{
+                cursor: pointer;
+                width: 5.05rem;
+                height: 3.05rem;
+                transition: 0.2s;
+                font-size: 15.3px;
+                background-color: red;
+            }
+    
+}

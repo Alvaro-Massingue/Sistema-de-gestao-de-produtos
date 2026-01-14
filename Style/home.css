@@ -1,0 +1,77 @@
+body{
+    height: 100vh;
+    background-color: rgb(245,247,250);
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+header{
+    display: flex;
+    background-color: #32CD32A2;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    
+        a{
+            margin: 10px;
+        }
+        a:hover{
+            border-bottom: 4px solid white;
+        }
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    
+    .imagem{
+        width: 70%;
+        background-color:rgba(0, 255, 42, 0.103);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 30px;
+        background-color: white;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 50px;
+        color: gray;
+        b{
+            color: #32CD32;
+        
+        }
+    }
+}
+
+img{
+    animation: gira 20s infinite;
+    border-radius: 10%;
+}
+/*img:hover{
+    filter: drop-shadow(0 0 5rem rgba(9, 255, 0, 0.356));
+}
+
+@keyframes gira {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}*/
